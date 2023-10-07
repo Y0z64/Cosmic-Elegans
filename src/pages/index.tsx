@@ -38,6 +38,14 @@ export default function Home() {
               </div>
             </Link>
           </div>
+          <div className="flex justify-center items-center w-full h-auto space-x-5">
+            <Link href="/Dashboard" className="flex justify-center items-center w-fit px-3 h-10 bg-purple-400 text-white rounded-xl">
+              Dashboard
+            </Link>
+            <Link href="/Graphs" className="flex justify-center items-center w-fit px-3 h-10 bg-purple-400 text-white rounded-xl">
+              Graphs
+            </Link>
+          </div>
         </div>
       </main>
     </>
