@@ -12,9 +12,9 @@ export default {
         'page2' : "url('/screen_2.jpg')",
       },
       fontFamily: {
-        sans: ['var(--font-inter)'],
-        mono: ['var(--font-roboto-mono)'],
-      },
+        oswald: ['Oswald', 'sans-serif'],
+        Lato: ['Lato', 'sans-serif'],
+      }
     },
   },
   plugins: [],
