@@ -7,7 +7,7 @@ function Welcome() {
     <>
       <Head>
         <title>Select subscription</title>
-        <meta name="description" content="Selet subscription page" />
+        <meta name="description" content="Welcome" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="h-screen w-screen bg-page3 bg-no-repeat bg-local bg-cover bg-bottom">
