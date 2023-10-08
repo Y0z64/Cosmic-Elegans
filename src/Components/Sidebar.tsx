@@ -17,14 +17,20 @@ const SideBar = () => {
   return (
     <div className="flex h-full w-24 flex-col justify-between overflow-hidden rounded bg-gray-900 text-gray-400 ">
       {isOpen && (
-        <div className="absolute left-24 top-0 h-full w-64 bg-[#111528] bg-gray-900 bg-white p-6 pl-6 pt-8">
-          <h2>Slider 1</h2>
-          <input type="range" min="1" max="100" className="bg-blue-500" />
+        <div className="flex flex-col justify-around absolute left-24 top-0 h-full w-72 bg-[#111628] bg-gray-900 bg-white p-6 pl-6 pt-8">
+          <div>
+            <h2>Slider 1</h2>
+            <input type="range" min="1" max="100" className="bg-blue-500" />
+          </div>
+          
+          <div>
           <h2>Slider 2</h2>
           <input type="range" min="1" max="100" className="bg-blue-500" />
+          </div>
           {/* Add more sliders as needed */}
           <h2>ca_conc_decay_time</h2>
           <input type="range" min="10" max="30" className="bg-blue-500" />
+          <div>
           <h2>ca_conc_rho</h2>
           <input
             type="range"
@@ -33,12 +39,20 @@ const SideBar = () => {
             step="0.00001"
             className="bg-blue-500"
           />
-          <h2>ca_simple_erev</h2>
-          <input type="range" min="40" max="60" className="bg-blue-500" />
+          </div>
+          <div>
+            <h2>ca_simple_erev</h2>
+            <input type="range" min="40" max="60" className="bg-blue-500" />
+          </div>
+          <div>
           <h2>cell_diameter</h2>
           <input type="range" min="3" max="7" className="bg-blue-500" />
+          </div>
+          <div>
           <h2>exc_syn_ad</h2>
           <input type="range" min="10" max="30" className="bg-blue-500" />
+          </div>
+          <div>
           <h2>exc_syn_ar</h2>
           <input
             type="range"
@@ -47,6 +61,7 @@ const SideBar = () => {
             step="0.1"
             className="bg-blue-500"
           />
+          </div>
         </div>
       )}
       <a
