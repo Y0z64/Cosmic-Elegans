@@ -12,7 +12,7 @@ function Dashboard() {
       </Head>
       <main className="flex items-center justify-start h-screen w-screen bg-[#30363d]">
         {/* Sidebar start */}
-        <div className="flex flex-col items-center w-16 h-full overflow-hidden text-gray-400 bg-gray-900 rounded border-[#9ca3af] border-r-1">
+        <div className="flex flex-col items-center pr-2 w-16 min-h-[3.75rem] h-full overflow-hidden text-gray-400 bg-gray-900 rounded border-[#9ca3af] border-r-1">
           <a className="flex items-center justify-center mt-3" href="#">
             <svg className="w-8 h-8 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
               <path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z" />
@@ -66,7 +66,7 @@ function Dashboard() {
         </div>
         {/* Sidebar end */}
         {/* Embed */}
-        <iframe width="100%" height="100%" src="https://apps.powerapps.com/play/c4308842-2b8c-4fa4-90ba-c186276b68b6?source=website&screenColor=rgba(165,34,55,1)" className="border-2 border-red-400"/>
+        <iframe width="100%" height="100%" src="https://apps.powerapps.com/play/c4308842-2b8c-4fa4-90ba-c186276b68b6?source=website&screenColor=rgba(165,34,55,1)" className=""/>
       </main>
     </>
   );
