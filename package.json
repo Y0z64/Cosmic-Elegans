@@ -12,12 +12,16 @@
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@google/model-viewer": "^3.2.1",
+    "@react-three/fiber": "^8.14.5",
     "@t3-oss/env-nextjs": "^0.6.0",
     "framer-motion": "^10.16.4",
     "next": "^13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-player": "^2.13.0",
     "sass": "^1.69.0",
+    "three": "^0.154.0",
     "zod": "^3.21.4"
   },
   "devDependencies": {
