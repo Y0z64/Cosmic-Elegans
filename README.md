@@ -8,21 +8,26 @@ Project submision for the local Nasa SpaceApps hackathon 2023
 2. Go to root folder and install dependencies ```npm install``` or ```yarn install```
 3. ```npm start``` or ```yarn start```
 
-For information in how to deploy go to the official [T3](https://create.t3.gg/) documentation
-
-Deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+For information in how to deploy go to the official [Next.js](https://nextjs.org/docs/pages/building-your-application/deploying) documentation
 
 ## Made with
 
-The project was made using the [T3 Stack](https://create.t3.gg/).
-
+- [React](https://react.dev/)
 - [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
 - [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
 
 ## Contributors
 The [Cosmic Crawlers](https://www.spaceappschallenge.org/2023/find-a-team/cosmic-crawlers/) team.
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+
 You are allowed to fork and use the contents of this project as you wish, just give some credit :)
+
